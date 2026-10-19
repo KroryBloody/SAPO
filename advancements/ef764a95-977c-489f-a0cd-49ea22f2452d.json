@@ -65806,27 +65806,9 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/cherry_planks": {
+  "mcwroofs:recipes/cherry": {
     "criteria": {
-      "has_planks": "2026-10-18 23:14:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2026-10-18 23:09:37 +0200"
-    },
-    "done": true
-  },
-  "create:encased_fan": {
-    "criteria": {
-      "0": "2026-10-18 23:16:17 +0200"
-    },
-    "done": true
-  },
-  "create:water_wheel": {
-    "criteria": {
-      "0": "2026-10-18 23:16:17 +0200"
+      "has_planks": "2026-10-18 22:20:09 +0200"
     },
     "done": true
   },
@@ -65836,27 +65818,27 @@
     },
     "done": true
   },
-  "create:fan_processing": {
+  "occultism:recipes/crushing/crushing/coal_dust_from_item": {
     "criteria": {
-      "0": "2026-10-18 23:17:15 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/sus_gravel": {
-    "criteria": {
-      "has_item_minecraft_gravel_1": "2026-10-18 23:32:40 +0200"
-    },
-    "done": true
-  },
-  "vinery:recipes/dark_cherry_shelf": {
-    "criteria": {
-      "has_spruce_planks": "2026-10-18 23:06:39 +0200"
+      "has_coal": "2026-10-18 22:29:38 +0200"
     },
     "done": true
   },
   "occultism:recipes/crushing/crushing/gold_dust_from_raw": {
     "criteria": {
       "has_raw_gold": "2026-10-18 22:35:34 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
+    "criteria": {
+      "has_tag_item": "2026-10-18 22:35:34 +0200"
+    },
+    "done": true
+  },
+  "ars_nouveau:novice_spell_book": {
+    "criteria": {
+      "has_novice_spell_book": "2026-10-18 22:46:39 +0200"
     },
     "done": true
   },
@@ -65872,27 +65854,9 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/grass": {
-    "criteria": {
-      "has_planks": "2026-10-18 22:57:51 +0200"
-    },
-    "done": true
-  },
   "architects_palette:recipes/warping/warping/nebulite_from_diorite_warping": {
     "criteria": {
       "has_diorite": "2026-10-18 22:49:21 +0200"
-    },
-    "done": true
-  },
-  "ars_nouveau:novice_spell_book": {
-    "criteria": {
-      "has_novice_spell_book": "2026-10-18 22:46:39 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/sus_sand": {
-    "criteria": {
-      "has_item_minecraft_sand_1": "2026-10-18 23:27:41 +0200"
     },
     "done": true
   },
@@ -65902,33 +65866,15 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/coal_dust_from_item": {
+  "mcwroofs:recipes/grass": {
     "criteria": {
-      "has_coal": "2026-10-18 22:29:38 +0200"
+      "has_planks": "2026-10-18 22:57:51 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
+  "vinery:recipes/dark_cherry_shelf": {
     "criteria": {
-      "minecraft:skeleton": "2026-10-18 23:12:19 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
-    "criteria": {
-      "has_tag_item": "2026-10-18 22:35:34 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2026-10-18 23:12:19 +0200"
-    },
-    "done": false
-  },
-  "mcwroofs:recipes/cherry": {
-    "criteria": {
-      "has_planks": "2026-10-18 22:20:09 +0200"
+      "has_spruce_planks": "2026-10-18 23:06:39 +0200"
     },
     "done": true
   },
@@ -65938,9 +65884,63 @@
     },
     "done": true
   },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-10-18 23:09:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2026-10-18 23:12:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2026-10-18 23:12:19 +0200"
+    },
+    "done": false
+  },
+  "mcwroofs:recipes/cherry_planks": {
+    "criteria": {
+      "has_planks": "2026-10-18 23:14:43 +0200"
+    },
+    "done": true
+  },
+  "create:encased_fan": {
+    "criteria": {
+      "0": "2026-10-18 23:16:17 +0200"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2026-10-18 23:16:17 +0200"
+    },
+    "done": true
+  },
+  "create:fan_processing": {
+    "criteria": {
+      "0": "2026-10-18 23:17:15 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_sand": {
+    "criteria": {
+      "has_item_minecraft_sand_1": "2026-10-18 23:27:41 +0200"
+    },
+    "done": true
+  },
   "mcwroofs:recipes/concrete": {
     "criteria": {
       "has_planks": "2026-10-18 23:27:41 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_gravel": {
+    "criteria": {
+      "has_item_minecraft_gravel_1": "2026-10-18 23:32:40 +0200"
     },
     "done": true
   },
