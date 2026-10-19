@@ -65282,6 +65282,7 @@
       "minecraft:taiga": "2026-10-18 21:40:06 +0200",
       "minecraft:river": "2026-10-18 21:54:10 +0200",
       "minecraft:swamp": "2026-10-18 23:00:59 +0200",
+      "minecraft:windswept_hills": "2026-10-20 00:34:34 +0200",
       "minecraft:snowy_taiga": "2026-10-18 22:45:28 +0200",
       "minecraft:dripstone_caves": "2026-10-19 02:45:53 +0200",
       "minecraft:plains": "2026-10-19 01:50:24 +0200"
@@ -65629,6 +65630,7 @@
     "criteria": {
       "minecraft:pillager": "2026-10-19 03:16:37 +0200",
       "minecraft:skeleton": "2026-10-19 01:54:35 +0200",
+      "minecraft:witch": "2026-10-20 00:33:50 +0200",
       "minecraft:spider": "2026-10-18 22:21:50 +0200",
       "minecraft:zombie": "2026-10-18 22:20:37 +0200",
       "minecraft:zombie_villager": "2026-10-19 01:32:22 +0200",
@@ -65904,6 +65906,36 @@
   "occultism:recipes/spirit_fire/spirit_fire/otherworld_essence": {
     "criteria": {
       "has_demons_dream_essence": "2026-10-19 13:24:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2026-10-20 00:26:38 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
+    "criteria": {
+      "has_raw_silver": "2026-10-20 00:37:24 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/root": {
+    "criteria": {
+      "halloween": "2026-10-20 00:16:47 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2026-10-20 00:31:51 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 00:16:47 +0200"
     },
     "done": true
   },
