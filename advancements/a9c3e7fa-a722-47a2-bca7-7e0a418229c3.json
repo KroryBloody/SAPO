@@ -65889,9 +65889,9 @@
     },
     "done": true
   },
-  "occultism:recipes/spirit_fire/spirit_fire/otherworld_essence": {
+  "mcwroofs:recipes/oak_planks": {
     "criteria": {
-      "has_demons_dream_essence": "2026-10-19 13:24:28 +0200"
+      "has_planks": "2026-10-19 13:00:49 +0200"
     },
     "done": true
   },
@@ -65901,9 +65901,9 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/oak_planks": {
+  "occultism:recipes/spirit_fire/spirit_fire/otherworld_essence": {
     "criteria": {
-      "has_planks": "2026-10-19 13:00:49 +0200"
+      "has_demons_dream_essence": "2026-10-19 13:24:28 +0200"
     },
     "done": true
   },
