@@ -65304,6 +65304,7 @@
       "minecraft:deep_dark": "2026-10-18 21:56:26 +0200",
       "minecraft:cherry_grove": "2026-10-18 21:43:11 +0200",
       "minecraft:sunflower_plains": "2026-10-18 22:35:16 +0200",
+      "minecraft:swamp": "2026-10-20 17:28:14 +0200",
       "minecraft:meadow": "2026-10-18 21:43:17 +0200",
       "minecraft:savanna": "2026-10-20 00:18:56 +0200",
       "minecraft:plains": "2026-10-18 21:42:19 +0200"
@@ -65401,9 +65402,10 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-10-18 21:37:26 +0200",
-      "opened_chest": "2026-10-18 21:26:03 +0200"
+      "opened_chest": "2026-10-18 21:26:03 +0200",
+      "opened_cart": "2026-10-20 21:42:12 +0200"
     },
-    "done": false
+    "done": true
   },
   "mcwroofs:recipes/thatch": {
     "criteria": {
@@ -65607,6 +65609,7 @@
     "criteria": {
       "bread": "2026-10-18 21:50:46 +0200",
       "potato": "2026-10-18 23:30:41 +0200",
+      "baked_potato": "2026-10-20 21:30:34 +0200",
       "pumpkin_pie": "2026-10-18 22:51:10 +0200"
     },
     "done": false
@@ -65901,7 +65904,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2026-10-18 23:12:19 +0200"
+      "minecraft:skeleton": "2026-10-18 23:12:19 +0200",
+      "minecraft:spider": "2026-10-20 19:19:50 +0200"
     },
     "done": false
   },
@@ -65947,15 +65951,53 @@
     },
     "done": true
   },
+  "tombstone:event/root": {
+    "criteria": {
+      "halloween": "2026-10-20 00:13:27 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 00:13:27 +0200"
+    },
+    "done": true
+  },
+  "vinery:main/wild_harvest": {
+    "criteria": {
+      "any_seed": "2026-10-20 00:19:03 +0200"
+    },
+    "done": true
+  },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "sugar_cane": "2026-10-20 22:17:26 +0200",
       "potato": "2026-10-20 00:34:25 +0200",
+      "sweet_berries": "2026-10-20 20:57:24 +0200",
       "wheat": "2026-10-20 00:34:26 +0200",
       "tomato": "2026-10-20 00:34:18 +0200",
       "beetroot": "2026-10-20 00:34:15 +0200",
       "carrot": "2026-10-20 00:34:22 +0200"
     },
     "done": false
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "beetroots": "2026-10-20 00:34:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-10-20 00:34:57 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust_from_ore": {
+    "criteria": {
+      "has_iron_ore": "2026-10-20 00:36:30 +0200"
+    },
+    "done": true
   },
   "architects_palette:recipes/warping/warping/moonshale_from_stone_warping": {
     "criteria": {
@@ -65975,39 +66017,201 @@
     },
     "done": true
   },
-  "tombstone:event/root": {
+  "create:mechanical_mixer": {
     "criteria": {
-      "halloween": "2026-10-20 00:13:27 +0200"
+      "0": "2026-10-20 22:08:29 +0200"
     },
     "done": true
   },
-  "vinery:main/wild_harvest": {
+  "lootr:1cart": {
     "criteria": {
-      "any_seed": "2026-10-20 00:19:03 +0200"
+      "opened_cart": "2026-10-20 21:42:12 +0200"
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "traded": "2026-10-20 00:34:57 +0200"
+      "slept_in_bed": "2026-10-20 21:14:38 +0200"
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/iron_dust_from_ore": {
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone": {
     "criteria": {
-      "has_iron_ore": "2026-10-20 00:36:30 +0200"
+      "has_smooth_stone": "2026-10-20 21:51:37 +0200"
     },
     "done": true
   },
-  "tombstone:event/halloween": {
+  "create:brass": {
     "criteria": {
-      "coded_trigger": "2026-10-20 00:13:27 +0200"
+      "0": "2026-10-20 22:08:31 +0200"
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
+  "mcwroofs:recipes/awning": {
     "criteria": {
-      "beetroots": "2026-10-20 00:34:15 +0200"
+      "has_planks": "2026-10-20 19:19:41 +0200"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2026-10-20 22:20:47 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/deforester_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 21:16:23 +0200"
+    },
+    "done": true
+  },
+  "beautify:lamps": {
+    "criteria": {
+      "requirement": "2026-10-20 21:50:52 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-10-20 21:18:09 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/quartz_dust_from_gem": {
+    "criteria": {
+      "has_quartz_gem": "2026-10-20 22:14:08 +0200"
+    },
+    "done": true
+  },
+  "create:belt": {
+    "criteria": {
+      "0": "2026-10-20 21:22:31 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/veinmine_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 21:16:23 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_st": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-20 21:51:37 +0200"
+    },
+    "done": true
+  },
+  "create:funnel": {
+    "criteria": {
+      "0": "2026-10-20 21:31:54 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_v": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-20 21:51:37 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_d": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-20 21:51:37 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_c": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-20 21:51:37 +0200"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2026-10-20 22:03:33 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/fungal_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 21:16:23 +0200"
+    },
+    "done": true
+  },
+  "vinery:recipes/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-10-20 22:30:50 +0200"
+    },
+    "done": true
+  },
+  "beautify:frames": {
+    "criteria": {
+      "requirement": "2026-10-20 19:19:41 +0200"
+    },
+    "done": true
+  },
+  "create_dragons_plus:recipes/fragile_fluid_tank": {
+    "criteria": {
+      "has_copper_sheet": "2026-10-20 22:01:26 +0200"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2026-10-20 22:08:31 +0200"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2026-10-20 21:50:52 +0200"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2026-10-20 21:31:45 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/shaped_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 21:16:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-10-20 21:06:50 +0200"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2026-10-20 22:25:26 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2026-10-20 21:06:50 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lapis_dust_from_gem": {
+    "criteria": {
+      "has_lapis_gem": "2026-10-20 21:42:20 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/obsidian_dust": {
+    "criteria": {
+      "has_obsidian": "2026-10-20 21:06:50 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_ingot": {
+    "criteria": {
+      "has_copper_ingot": "2026-10-20 21:50:52 +0200"
     },
     "done": true
   },

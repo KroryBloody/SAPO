@@ -65276,15 +65276,21 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2026-10-19 01:48:54 +0200",
+      "minecraft:badlands": "2026-10-20 14:02:35 +0200",
+      "minecraft:savanna_plateau": "2026-10-20 13:55:26 +0200",
       "minecraft:beach": "2026-10-18 22:19:08 +0200",
       "minecraft:forest": "2026-10-18 21:57:06 +0200",
       "minecraft:taiga": "2026-10-18 21:40:06 +0200",
       "minecraft:river": "2026-10-18 21:54:10 +0200",
-      "minecraft:swamp": "2026-10-18 23:00:59 +0200",
-      "minecraft:windswept_hills": "2026-10-20 00:34:34 +0200",
       "minecraft:snowy_taiga": "2026-10-18 22:45:28 +0200",
       "minecraft:dripstone_caves": "2026-10-19 02:45:53 +0200",
+      "minecraft:old_growth_birch_forest": "2026-10-19 01:48:54 +0200",
+      "minecraft:cherry_grove": "2026-10-20 13:53:18 +0200",
+      "minecraft:sunflower_plains": "2026-10-20 13:52:59 +0200",
+      "minecraft:swamp": "2026-10-18 23:00:59 +0200",
+      "minecraft:windswept_hills": "2026-10-20 00:34:34 +0200",
+      "minecraft:savanna": "2026-10-20 13:55:52 +0200",
+      "minecraft:wooded_badlands": "2026-10-20 14:37:27 +0200",
       "minecraft:plains": "2026-10-19 01:50:24 +0200"
     },
     "done": false
@@ -65334,8 +65340,10 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "sugar_cane": "2026-10-19 13:32:27 +0200",
+      "potato": "2026-10-20 05:17:26 +0200",
       "sweet_berries": "2026-10-18 21:52:47 +0200",
-      "wheat": "2026-10-18 23:02:53 +0200"
+      "wheat": "2026-10-18 23:02:53 +0200",
+      "carrot": "2026-10-20 05:17:22 +0200"
     },
     "done": false
   },
@@ -65630,9 +65638,11 @@
     "criteria": {
       "minecraft:pillager": "2026-10-19 03:16:37 +0200",
       "minecraft:skeleton": "2026-10-19 01:54:35 +0200",
+      "minecraft:phantom": "2026-10-20 03:18:14 +0200",
       "minecraft:witch": "2026-10-20 00:33:50 +0200",
       "minecraft:spider": "2026-10-18 22:21:50 +0200",
       "minecraft:zombie": "2026-10-18 22:20:37 +0200",
+      "minecraft:creeper": "2026-10-20 13:43:13 +0200",
       "minecraft:zombie_villager": "2026-10-19 01:32:22 +0200",
       "minecraft:bogged": "2026-10-19 03:37:06 +0200",
       "minecraft:slime": "2026-10-19 03:32:08 +0200"
@@ -65909,21 +65919,21 @@
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_helmet": "2026-10-20 00:26:38 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
-    "criteria": {
-      "has_raw_silver": "2026-10-20 00:37:24 +0200"
-    },
-    "done": true
-  },
   "tombstone:event/root": {
     "criteria": {
       "halloween": "2026-10-20 00:16:47 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 00:16:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2026-10-20 00:26:38 +0200"
     },
     "done": true
   },
@@ -65933,9 +65943,507 @@
     },
     "done": true
   },
-  "tombstone:event/halloween": {
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
     "criteria": {
-      "coded_trigger": "2026-10-20 00:16:47 +0200"
+      "has_raw_silver": "2026-10-20 00:37:24 +0200"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2026-10-20 01:12:41 +0200"
+    },
+    "done": true
+  },
+  "beautify:candelabras": {
+    "criteria": {
+      "requirement": "2026-10-20 02:46:28 +0200"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/mechanical_grindstone": {
+    "criteria": {
+      "andesite": "2026-10-20 02:51:18 +0200"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2026-10-20 02:51:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "criteria": {
+      "torchflower": "2026-10-20 02:56:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_ingot": {
+    "criteria": {
+      "has_silver_ingot": "2026-10-20 03:16:09 +0200"
+    },
+    "done": true
+  },
+  "create:water_wheel": {
+    "criteria": {
+      "0": "2026-10-20 03:22:23 +0200"
+    },
+    "done": true
+  },
+  "create:shifting_gears": {
+    "criteria": {
+      "0": "2026-10-20 03:22:46 +0200"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2026-10-20 03:26:09 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_press": {
+    "criteria": {
+      "0": "2026-10-20 03:33:23 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/awning": {
+    "criteria": {
+      "has_planks": "2026-10-20 04:02:28 +0200"
+    },
+    "done": true
+  },
+  "beautify:frames": {
+    "criteria": {
+      "requirement": "2026-10-20 04:02:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2026-10-20 04:10:27 +0200"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-10-20 04:10:27 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/resurrect_familiar": {
+    "criteria": {
+      "has_otherworld_essence": "2026-10-20 04:11:17 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/resurrect_mob": {
+    "criteria": {
+      "has_otherworld_essence": "2026-10-20 04:11:17 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/otherworld_sapling": {
+    "criteria": {
+      "has_otherworld_sapling_natural": "2026-10-20 04:12:55 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/otherworld_ashes": {
+    "criteria": {
+      "has_tag_item": "2026-10-20 04:14:25 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/othercobblestone": {
+    "criteria": {
+      "has_otherstone": "2026-10-20 04:17:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/otherstone": {
+    "criteria": {
+      "has_otherstone_dust": "2026-10-20 04:21:40 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_white": {
+    "criteria": {
+      "has_chalk_white_impure": "2026-10-20 04:22:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/repair_chalks": {
+    "criteria": {
+      "has_white_chalk": "2026-10-20 04:24:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2026-10-20 04:34:29 +0200"
+    },
+    "done": true
+  },
+  "beautify:bookstack": {
+    "criteria": {
+      "requirement": "2026-10-20 04:34:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2026-10-20 04:34:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/taboo_book": {
+    "criteria": {
+      "has_book": "2026-10-20 04:34:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_iron_block": "2026-10-20 04:44:54 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 04:49:35 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/awakened_feather": {
+    "criteria": {
+      "has_tag_item": "2026-10-20 04:53:04 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/drink_earthly_garden": {
+    "criteria": {
+      "drink_earthly_garden_potion": "2026-10-20 05:01:07 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/dark_oak": {
+    "criteria": {
+      "has_planks": "2026-10-20 05:02:31 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 05:14:05 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/deforester_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 05:23:32 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/veinmine_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 05:23:32 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/fungal_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 05:23:32 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/shaped_charge": {
+    "criteria": {
+      "has_charcoal": "2026-10-20 05:23:32 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/purified_ink": {
+    "criteria": {
+      "has_tag_item": "2026-10-20 05:23:35 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_smelter": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stabilizer_tier1_dark": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_random_animal_small": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_transport_items": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_storage_controller_base": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stabilizer_tier1": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_greedy": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_crystallizer": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stable_wormhole_dark": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_crusher": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_satchel": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_ritual_satchel_t1": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_parrot": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_phantom": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_blacksmith": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_nature_paste": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/resurrect_allay": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_storage_controller_base_dark": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_infused_lenses": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_fragile_soul_gem": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:23 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_random_animal_water": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_farmer": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_research_fragment_dust": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_sapling_trader": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_skeleton": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_otherrock_trader": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_unbound_parrot": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_miner_foliot_unspecialized": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_otherstone_trader": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_endermite": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_cleaner": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_vitality_compass": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_random_animal_common": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_knowledge_tablet": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stable_wormhole": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_foliot_lumberjack": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_beaver": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_deer": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_witch": {
+    "criteria": {
+      "has_bound_foliot": "2026-10-20 05:27:24 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/mangrove": {
+    "criteria": {
+      "has_planks": "2026-10-20 13:50:44 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/road_sign": {
+    "criteria": {
+      "structure_found": "2026-10-20 13:58:05 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2026-10-20 14:03:30 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/terracotta": {
+    "criteria": {
+      "has_planks": "2026-10-20 14:05:17 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_raw": {
+    "criteria": {
+      "has_raw_gold": "2026-10-20 14:30:34 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_ingot": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-20 14:47:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2026-10-20 14:49:05 +0200"
     },
     "done": true
   },
