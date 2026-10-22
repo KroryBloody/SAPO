@@ -65276,21 +65276,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2026-10-21 20:28:06 +0200",
+      "minecraft:old_growth_pine_taiga": "2026-10-21 20:51:36 +0200",
+      "minecraft:forest": "2026-10-18 21:57:06 +0200",
+      "minecraft:taiga": "2026-10-18 21:40:06 +0200",
+      "minecraft:deep_cold_ocean": "2026-10-21 20:28:20 +0200",
+      "minecraft:cherry_grove": "2026-10-20 13:53:18 +0200",
+      "minecraft:sunflower_plains": "2026-10-20 13:52:59 +0200",
+      "minecraft:birch_forest": "2026-10-21 21:12:06 +0200",
+      "minecraft:windswept_hills": "2026-10-20 00:34:34 +0200",
+      "minecraft:old_growth_spruce_taiga": "2026-10-21 20:41:10 +0200",
+      "minecraft:wooded_badlands": "2026-10-20 14:37:27 +0200",
+      "minecraft:bamboo_jungle": "2026-10-21 21:21:24 +0200",
       "minecraft:badlands": "2026-10-20 14:02:35 +0200",
       "minecraft:savanna_plateau": "2026-10-20 13:55:26 +0200",
       "minecraft:beach": "2026-10-18 22:19:08 +0200",
-      "minecraft:forest": "2026-10-18 21:57:06 +0200",
-      "minecraft:taiga": "2026-10-18 21:40:06 +0200",
+      "minecraft:dark_forest": "2026-10-21 20:53:57 +0200",
+      "minecraft:stony_peaks": "2026-10-21 21:34:47 +0200",
+      "minecraft:sparse_jungle": "2026-10-21 21:21:41 +0200",
       "minecraft:river": "2026-10-18 21:54:10 +0200",
+      "minecraft:snowy_plains": "2026-10-21 20:39:17 +0200",
       "minecraft:snowy_taiga": "2026-10-18 22:45:28 +0200",
       "minecraft:dripstone_caves": "2026-10-19 02:45:53 +0200",
       "minecraft:old_growth_birch_forest": "2026-10-19 01:48:54 +0200",
-      "minecraft:cherry_grove": "2026-10-20 13:53:18 +0200",
-      "minecraft:sunflower_plains": "2026-10-20 13:52:59 +0200",
       "minecraft:swamp": "2026-10-18 23:00:59 +0200",
-      "minecraft:windswept_hills": "2026-10-20 00:34:34 +0200",
       "minecraft:savanna": "2026-10-20 13:55:52 +0200",
-      "minecraft:wooded_badlands": "2026-10-20 14:37:27 +0200",
       "minecraft:plains": "2026-10-19 01:50:24 +0200"
     },
     "done": false
@@ -65341,6 +65351,7 @@
     "criteria": {
       "sugar_cane": "2026-10-19 13:32:27 +0200",
       "potato": "2026-10-20 05:17:26 +0200",
+      "red_mushroom": "2026-10-22 02:20:31 +0200",
       "sweet_berries": "2026-10-18 21:52:47 +0200",
       "wheat": "2026-10-18 23:02:53 +0200",
       "carrot": "2026-10-20 05:17:22 +0200"
@@ -65356,7 +65367,8 @@
       "sweet_berries": "2026-10-18 21:52:49 +0200",
       "salmon": "2026-10-19 01:23:35 +0200",
       "cooked_beef": "2026-10-18 22:19:30 +0200",
-      "cod": "2026-10-18 23:24:33 +0200"
+      "cod": "2026-10-18 23:24:33 +0200",
+      "carrot": "2026-10-21 23:37:43 +0200"
     },
     "done": false
   },
@@ -65639,13 +65651,15 @@
       "minecraft:pillager": "2026-10-19 03:16:37 +0200",
       "minecraft:skeleton": "2026-10-19 01:54:35 +0200",
       "minecraft:phantom": "2026-10-20 03:18:14 +0200",
+      "minecraft:enderman": "2026-10-21 20:35:46 +0200",
       "minecraft:witch": "2026-10-20 00:33:50 +0200",
       "minecraft:spider": "2026-10-18 22:21:50 +0200",
       "minecraft:zombie": "2026-10-18 22:20:37 +0200",
       "minecraft:creeper": "2026-10-20 13:43:13 +0200",
       "minecraft:zombie_villager": "2026-10-19 01:32:22 +0200",
       "minecraft:bogged": "2026-10-19 03:37:06 +0200",
-      "minecraft:slime": "2026-10-19 03:32:08 +0200"
+      "minecraft:slime": "2026-10-19 03:32:08 +0200",
+      "minecraft:hoglin": "2026-10-22 00:09:50 +0200"
     },
     "done": false
   },
@@ -66023,6 +66037,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2026-10-22 04:28:37 +0200",
+      "minecraft:chicken": "2026-10-22 02:39:14 +0200",
       "minecraft:sheep": "2026-10-20 04:10:27 +0200"
     },
     "done": false
@@ -66446,6 +66462,804 @@
       "voluntary_exile": "2026-10-20 14:49:05 +0200"
     },
     "done": true
+  },
+  "occultism:chalks/white": {
+    "criteria": {
+      "chalk_white": "2026-10-21 20:22:43 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_sand": {
+    "criteria": {
+      "has_item_minecraft_sand_1": "2026-10-21 20:34:28 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/concrete": {
+    "criteria": {
+      "has_planks": "2026-10-21 20:34:28 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/expert_tasting": {
+    "criteria": {
+      "eat_lollipop_3": "2026-10-22 05:05:57 +0200",
+      "eat_lollipop_4": "2026-10-21 21:30:18 +0200",
+      "eat_lollipop_1": "2026-10-21 21:31:57 +0200",
+      "eat_lollipop_2": "2026-10-21 20:44:59 +0200",
+      "eat_lollipop_0": "2026-10-22 05:22:47 +0200",
+      "eat_lollipop_5": "2026-10-22 02:20:16 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/eat_lollipop": {
+    "criteria": {
+      "coded_trigger": "2026-10-21 20:44:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-10-21 20:45:32 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/item_lore": {
+    "criteria": {
+      "has_item_minecraft_name_tag_1": "2026-10-21 20:50:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2026-10-21 20:52:39 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/mangrove_planks": {
+    "criteria": {
+      "has_planks": "2026-10-21 21:02:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2026-10-21 21:24:03 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2026-10-21 21:24:03 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/obsidian_dust": {
+    "criteria": {
+      "has_obsidian": "2026-10-21 21:24:03 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/spirit_attuned_gem": {
+    "criteria": {
+      "has_tag_item": "2026-10-21 22:05:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2026-10-21 22:05:30 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/diamond_dust_from_gem": {
+    "criteria": {
+      "has_diamond_gem": "2026-10-21 22:05:30 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2026-10-21 23:12:22 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_villager": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_random_animal_common": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_random_animal_small": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_random_animal_water": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_random_animal_special": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/wild_random_animal_rideable": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2026-10-21 23:20:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-10-21 23:55:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-10-21 23:59:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-10-21 23:59:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-10-21 23:59:57 +0200",
+      "minecraft:nether_wastes": "2026-10-22 00:14:04 +0200"
+    },
+    "done": false
+  },
+  "occultism:recipes/crushing/crushing/quartz_dust_from_gem": {
+    "criteria": {
+      "has_quartz_gem": "2026-10-22 00:02:06 +0200"
+    },
+    "done": true
+  },
+  "reliquary:recipes/uncrafting/spawn_egg": {
+    "criteria": {
+      "has_mob_charm_fragment": "2026-10-22 00:11:14 +0200"
+    },
+    "done": true
+  },
+  "beautify:lamp_jar": {
+    "criteria": {
+      "requirement": "2026-10-22 00:15:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-10-22 00:33:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/summon_foliot_crusher": {
+    "criteria": {
+      "summon_foliot_crusher": "2026-10-22 00:33:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/blackstone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_coal_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/glowstone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/crying_obsidian": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_iesnium": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/redstone_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/magma_block": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/glowstone_dust": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/quartz": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/lapis_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/obsidian": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_diamond_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/inferium_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/mining_dim_core": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/coal_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/soulium_dust": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/basalt": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/redstone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_gold": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/netherrack": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/iesnium_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_iron": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/gilded_blackstone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/copper_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/nether_quartz_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/mossy_cobblestone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/deepslate": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/prosperity_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/emerald": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/ancient_debris": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/ancient_debris": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/diamond_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_lapis_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/gravel": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/mining_dim_core": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/coal": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_emerald_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/diamond": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/amethyst": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/emerald_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/clay": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/andesite": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/lapis": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_copper": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/debug_wand": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_zinc": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/zinc_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/nether_gold_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/silver_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/otherstone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_platinum": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/prosperity_shard": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/mossy_stone_bricks": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/otherrock": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/gold_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_redstone_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/inferium_essence": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/granite": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_iron_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/platinum_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_gold_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/diorite": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/end_stone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/stone": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/iron_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/eldritch/raw_silver": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/clay": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_silver_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/debug_wand_2": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_copper_ore": {
+    "criteria": {
+      "has_miner": "2026-10-22 00:36:07 +0200"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/misc/ender_pearl": {
+    "criteria": {
+      "has_ender_pearl": "2026-10-22 00:44:37 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/ara_vitae/blood_pearl": {
+    "criteria": {
+      "has_ender_pearl": "2026-10-22 00:44:37 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_gold": {
+    "criteria": {
+      "has_chalk_yellow_impure": "2026-10-22 01:05:41 +0200"
+    },
+    "done": true
+  },
+  "occultism:chalks/yellow": {
+    "criteria": {
+      "chalk_gold": "2026-10-22 01:30:26 +0200"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/warping/warping/moonshale_from_stone_warping": {
+    "criteria": {
+      "has_stone": "2026-10-22 01:35:09 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/stone": {
+    "criteria": {
+      "has_planks": "2026-10-22 01:35:09 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/stone_bricks": {
+    "criteria": {
+      "has_planks": "2026-10-22 01:35:09 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/possess_endermite": {
+    "criteria": {
+      "possess_endermite": "2026-10-22 01:37:12 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/end_stone_dust": {
+    "criteria": {
+      "has_end_stone": "2026-10-22 01:37:22 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/obsidian": {
+    "criteria": {
+      "has_obsidian_dust": "2026-10-22 01:38:36 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/end_stone": {
+    "criteria": {
+      "has_end_stone_dust": "2026-10-22 01:38:36 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/emerald_from_dust": {
+    "criteria": {
+      "has_emerald_dust": "2026-10-22 01:38:37 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_purple": {
+    "criteria": {
+      "has_chalk_purple_impure": "2026-10-22 01:38:57 +0200"
+    },
+    "done": true
+  },
+  "occultism:chalks/purple": {
+    "criteria": {
+      "chalk_purple": "2026-10-22 01:41:19 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/possess_witch": {
+    "criteria": {
+      "possess_witch": "2026-10-22 02:31:50 +0200"
+    },
+    "done": true
+  },
+  "occultism:chalks/lime": {
+    "criteria": {
+      "chalk_lime": "2026-10-22 04:39:28 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/quartz_from_block": {
+    "criteria": {
+      "has_quartz_block": "2026-10-22 04:21:24 +0200"
+    },
+    "done": true
+  },
+  "occultism:chalks/light_gray": {
+    "criteria": {
+      "chalk_light_gray": "2026-10-22 04:38:31 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_storage_controller_base": {
+    "criteria": {
+      "craft_storage_controller_base": "2026-10-22 03:51:05 +0200"
+    },
+    "done": true
+  },
+  "lootr:50loot": {
+    "criteria": {
+      "opened_50": "2026-10-22 06:26:17 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_light_gray": {
+    "criteria": {
+      "has_chalk_light_gray_impure": "2026-10-22 04:38:13 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/calcite_dust": {
+    "criteria": {
+      "has_calcite": "2026-10-22 04:30:53 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/calcite": {
+    "criteria": {
+      "has_calcite_dust": "2026-10-22 04:36:56 +0200"
+    },
+    "done": true
+  },
+  "vinery:recipes/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-10-22 06:25:51 +0200"
+    },
+    "done": true
+  },
+  "lootr:pot_opened": {
+    "criteria": {
+      "pot_opened": "2026-10-22 06:25:51 +0200"
+    },
+    "done": true
+  },
+  "lootr:archaeologist": {
+    "criteria": {
+      "got_pot": "2026-10-22 06:25:51 +0200"
+    },
+    "done": false
+  },
+  "occultism:occultism/possess_skeleton": {
+    "criteria": {
+      "possess_skeleton": "2026-10-22 05:48:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2026-10-22 06:24:40 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_research_fragment_dust": {
+    "criteria": {
+      "craft_research_fragment_dust": "2026-10-22 03:42:39 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_lime": {
+    "criteria": {
+      "has_chalk_lime_impure": "2026-10-22 03:43:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2026-10-22 06:26:52 +0200"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
