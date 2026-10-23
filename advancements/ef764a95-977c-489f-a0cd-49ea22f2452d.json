@@ -66222,29 +66222,11 @@
     },
     "done": true
   },
-  "tombstone:adventure/almost_unkillable": {
-    "criteria": {
-      "coded_trigger": "2026-10-22 00:40:32 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/strong_or_careful": {
-    "criteria": {
-      "coded_trigger": "2026-10-22 00:40:32 +0200"
-    },
-    "done": true
-  },
   "create:wrench_goggles": {
     "criteria": {
       "0": "2026-10-21 20:34:16 +0200"
     },
     "done": false
-  },
-  "architects_palette:recipes/warping/warping/moonshale_bricks_from_stone_bricks_warping": {
-    "criteria": {
-      "has_stone_bricks": "2026-10-21 21:36:35 +0200"
-    },
-    "done": true
   },
   "create:crushing_wheel": {
     "criteria": {
@@ -66252,51 +66234,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/first_knowledge": {
+  "create:crusher_maxed_0000": {
     "criteria": {
-      "coded_trigger": "2026-10-22 00:40:32 +0200"
-    },
-    "done": true
-  },
-  "create:stock_ticker": {
-    "criteria": {
-      "0": "2026-10-21 23:21:01 +0200"
-    },
-    "done": true
-  },
-  "create:packager": {
-    "criteria": {
-      "0": "2026-10-21 23:20:47 +0200"
-    },
-    "done": true
-  },
-  "neovitae:recipes/ara_vitae/spikes": {
-    "criteria": {
-      "has_iron_bars": "2026-10-22 00:08:19 +0200"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:experienced_engineer": {
-    "criteria": {
-      "0": "2026-10-21 23:50:36 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
-    "criteria": {
-      "has_tag_item": "2026-10-22 00:43:09 +0200"
-    },
-    "done": true
-  },
-  "create:burner": {
-    "criteria": {
-      "0": "2026-10-21 22:42:46 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/choose_knowledge": {
-    "criteria": {
-      "coded_trigger": "2026-10-22 00:40:47 +0200"
+      "0": "2026-10-21 20:49:40 +0200"
     },
     "done": true
   },
@@ -66306,9 +66246,15 @@
     },
     "done": true
   },
-  "tombstone:adventure/cancel_ghostly_shape": {
+  "architects_palette:recipes/warping/warping/moonshale_bricks_from_stone_bricks_warping": {
     "criteria": {
-      "coded_trigger": "2026-10-22 00:41:59 +0200"
+      "has_stone_bricks": "2026-10-21 21:36:35 +0200"
+    },
+    "done": true
+  },
+  "create:burner": {
+    "criteria": {
+      "0": "2026-10-21 22:42:46 +0200"
     },
     "done": true
   },
@@ -66324,9 +66270,63 @@
     },
     "done": true
   },
-  "create:crusher_maxed_0000": {
+  "create:packager": {
     "criteria": {
-      "0": "2026-10-21 20:49:40 +0200"
+      "0": "2026-10-21 23:20:47 +0200"
+    },
+    "done": true
+  },
+  "create:stock_ticker": {
+    "criteria": {
+      "0": "2026-10-21 23:21:01 +0200"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experienced_engineer": {
+    "criteria": {
+      "0": "2026-10-21 23:50:36 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/ara_vitae/spikes": {
+    "criteria": {
+      "has_iron_bars": "2026-10-22 00:08:19 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2026-10-22 00:40:32 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-10-22 00:40:32 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-10-22 00:40:32 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-10-22 00:40:47 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-10-22 00:41:59 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
+    "criteria": {
+      "has_tag_item": "2026-10-22 00:43:09 +0200"
     },
     "done": true
   },
