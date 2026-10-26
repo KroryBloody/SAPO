@@ -65300,6 +65300,7 @@
       "minecraft:dripstone_caves": "2026-10-19 02:45:53 +0200",
       "minecraft:old_growth_birch_forest": "2026-10-19 01:48:54 +0200",
       "minecraft:swamp": "2026-10-18 23:00:59 +0200",
+      "minecraft:windswept_gravelly_hills": "2026-10-25 19:54:46 +0100",
       "minecraft:savanna": "2026-10-20 13:55:52 +0200",
       "minecraft:plains": "2026-10-19 01:50:24 +0200"
     },
@@ -65353,6 +65354,7 @@
       "potato": "2026-10-20 05:17:26 +0200",
       "red_mushroom": "2026-10-22 02:20:31 +0200",
       "sweet_berries": "2026-10-18 21:52:47 +0200",
+      "nether_wart": "2026-10-25 20:51:54 +0100",
       "wheat": "2026-10-18 23:02:53 +0200",
       "kelp": "2026-10-23 05:14:04 +0200",
       "carrot": "2026-10-20 05:17:22 +0200"
@@ -65650,14 +65652,20 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2026-10-19 03:16:37 +0200",
+      "minecraft:blaze": "2026-10-24 19:04:21 +0200",
       "minecraft:skeleton": "2026-10-19 01:54:35 +0200",
       "minecraft:phantom": "2026-10-20 03:18:14 +0200",
       "minecraft:witch": "2026-10-20 00:33:50 +0200",
+      "minecraft:wither_skeleton": "2026-10-24 19:28:16 +0200",
       "minecraft:bogged": "2026-10-19 03:37:06 +0200",
+      "minecraft:ghast": "2026-10-24 14:01:48 +0200",
       "minecraft:hoglin": "2026-10-22 00:09:50 +0200",
       "minecraft:cave_spider": "2026-10-23 03:13:09 +0200",
+      "minecraft:piglin": "2026-10-25 21:45:30 +0100",
       "minecraft:enderman": "2026-10-21 20:35:46 +0200",
+      "minecraft:magma_cube": "2026-10-24 14:04:40 +0200",
       "minecraft:spider": "2026-10-18 22:21:50 +0200",
+      "minecraft:piglin_brute": "2026-10-24 15:42:47 +0200",
       "minecraft:zombie": "2026-10-18 22:20:37 +0200",
       "minecraft:creeper": "2026-10-20 13:43:13 +0200",
       "minecraft:zombie_villager": "2026-10-19 01:32:22 +0200",
@@ -66623,7 +66631,9 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2026-10-21 23:59:57 +0200",
-      "minecraft:nether_wastes": "2026-10-22 00:14:04 +0200"
+      "minecraft:nether_wastes": "2026-10-22 00:14:04 +0200",
+      "minecraft:warped_forest": "2026-10-24 15:22:20 +0200",
+      "minecraft:basalt_deltas": "2026-10-24 19:24:46 +0200"
     },
     "done": false
   },
@@ -67272,6 +67282,516 @@
   "ars_nouveau:warp_scroll": {
     "criteria": {
       "has_warp_scroll": "2026-10-23 03:38:33 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-24 01:58:01 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_st": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-24 01:58:01 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_v": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-24 01:58:01 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_d": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-24 01:58:01 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/dungeon/forge_dungeon_stone_c": {
+    "criteria": {
+      "has_smooth_stone": "2026-10-24 01:58:01 +0200"
+    },
+    "done": true
+  },
+  "create_dragons_plus:recipes/fragile_fluid_tank": {
+    "criteria": {
+      "has_copper_sheet": "2026-10-24 02:07:56 +0200"
+    },
+    "done": true
+  },
+  "create:mechanical_mixer": {
+    "criteria": {
+      "0": "2026-10-24 02:19:52 +0200"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2026-10-24 02:20:17 +0200"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "brass": "2026-10-24 02:20:17 +0200"
+    },
+    "done": true
+  },
+  "create:brass_casing": {
+    "criteria": {
+      "0": "2026-10-24 02:23:33 +0200"
+    },
+    "done": true
+  },
+  "ars_nouveau:magebloom_crop": {
+    "criteria": {
+      "has_magebloom_crop": "2026-10-24 03:57:33 +0200"
+    },
+    "done": true
+  },
+  "create:rose_quartz": {
+    "criteria": {
+      "0": "2026-10-24 04:50:43 +0200"
+    },
+    "done": true
+  },
+  "create:deployer": {
+    "criteria": {
+      "0": "2026-10-24 04:55:01 +0200"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2026-10-24 05:02:31 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/aug_shaped_charge": {
+    "criteria": {
+      "has_copper_block": "2026-10-24 06:12:27 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/shaped_charge_deep": {
+    "criteria": {
+      "has_copper_block": "2026-10-24 06:12:27 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/deforester_charge_2": {
+    "criteria": {
+      "has_copper_block": "2026-10-24 06:12:27 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/fungal_charge_2": {
+    "criteria": {
+      "has_copper_block": "2026-10-24 06:12:27 +0200"
+    },
+    "done": true
+  },
+  "neovitae:recipes/hellfire_forge/veinmine_charge_2": {
+    "criteria": {
+      "has_copper_block": "2026-10-24 06:12:27 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_otherworld_bird": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_wondering_trader": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_dimensional_mineshaft": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stabilizer_tier2_dark": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_ghast": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_familiar_ring": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_dragon": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_devil": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_smelter": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_ender_satchel": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_mummy": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_entity_wormhole_dark": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_random_animal_rideable": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_spirit_grindstone": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_clear_weather": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_demonic_husband": {
+    "criteria": {
+      "has_bound_afrit": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_night_time": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_storage_remote": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_chimera": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_demonic_wife": {
+    "criteria": {
+      "has_bound_afrit": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_blaze": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_beholder": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_manage_machine": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_dimensional_extractor": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_stabilizer_tier2": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_random_animal_special": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_infused_pickaxe": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_bat": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_fairy": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_day_time": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_gambler": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_gray_paste": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_headless": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_villager": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_enderman": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_bee": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_crystallizer": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_unbound_otherworld_bird": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/summon_djinni_crusher": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/familiar_cthulhu": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_dimensional_matrix": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_miner_djinni_ores": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_soul_gem": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/possess_weak_shulker": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/ritual/ritual/craft_entity_wormhole": {
+    "criteria": {
+      "has_bound_djinni": "2026-10-24 06:57:14 +0200"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_dimensional_matrix": {
+    "criteria": {
+      "craft_dimensional_matrix": "2026-10-24 07:00:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-10-24 14:06:34 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped": {
+    "criteria": {
+      "has_planks": "2026-10-24 15:22:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2026-10-24 15:40:49 +0200"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/warping/warping/twisted_leaves_from_leaves_warping": {
+    "criteria": {
+      "has_leaves": "2026-10-24 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/nether_bricks": {
+    "criteria": {
+      "has_planks": "2026-10-24 19:04:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-10-24 19:06:50 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2026-10-24 19:23:42 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/blaze_powder_from_rod": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-24 19:30:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-10-24 19:30:49 +0200"
+    },
+    "done": true
+  },
+  "create_dragons_plus:recipes/blaze_upgrade_smithing_template": {
+    "criteria": {
+      "has_template": "2026-10-24 19:34:19 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crystallize/crystallize/amethyst_from_block": {
+    "criteria": {
+      "has_amethyst_block": "2026-10-25 19:46:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2026-10-25 20:42:25 +0100"
+    },
+    "done": true
+  },
+  "ars_nouveau:imbuement_chamber": {
+    "criteria": {
+      "has_imbuement_chamber": "2026-10-25 20:45:26 +0100"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_infused_lenses": {
+    "criteria": {
+      "craft_infused_lenses": "2026-10-25 21:05:51 +0100"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_infused_pickaxe": {
+    "criteria": {
+      "craft_infused_pickaxe": "2026-10-25 21:38:14 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iesnium_dust_from_raw": {
+    "criteria": {
+      "has_raw_iesnium": "2026-10-25 21:47:39 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iesnium_dust_from_ingot": {
+    "criteria": {
+      "has_iesnium_ingot": "2026-10-25 21:57:35 +0100"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_stabilizer_tier1": {
+    "criteria": {
+      "craft_stabilizer_tier1": "2026-10-26 00:14:08 +0100"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "opened_100": "2026-10-25 23:55:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-10-26 00:17:03 +0100"
     },
     "done": true
   },

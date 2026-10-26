@@ -65295,13 +65295,22 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2026-10-18 23:10:13 +0200",
+      "minecraft:flower_forest": "2026-10-25 21:44:48 +0100",
+      "minecraft:savanna_plateau": "2026-10-25 21:40:02 +0100",
       "minecraft:beach": "2026-10-18 23:10:53 +0200",
+      "minecraft:dark_forest": "2026-10-24 22:19:41 +0200",
       "minecraft:forest": "2026-10-18 21:53:30 +0200",
       "minecraft:taiga": "2026-10-18 20:59:10 +0200",
+      "minecraft:sparse_jungle": "2026-10-25 19:58:19 +0100",
+      "minecraft:river": "2026-10-18 21:53:29 +0200",
+      "minecraft:old_growth_birch_forest": "2026-10-24 22:19:39 +0200",
+      "minecraft:jungle": "2026-10-25 19:58:42 +0100",
       "minecraft:cherry_grove": "2026-10-18 22:19:35 +0200",
       "minecraft:sunflower_plains": "2026-10-18 23:01:48 +0200",
-      "minecraft:river": "2026-10-18 21:53:29 +0200",
       "minecraft:meadow": "2026-10-18 21:57:27 +0200",
+      "minecraft:birch_forest": "2026-10-24 22:19:34 +0200",
+      "minecraft:savanna": "2026-10-25 21:39:42 +0100",
+      "minecraft:bamboo_jungle": "2026-10-24 22:19:50 +0200",
       "minecraft:plains": "2026-10-18 21:54:10 +0200"
     },
     "done": false
@@ -65454,6 +65463,7 @@
     "criteria": {
       "has_taiga_white": "2026-10-18 22:18:31 +0200",
       "has_taiga_red": "2026-10-18 22:18:46 +0200",
+      "has_savanna_white": "2026-10-25 20:06:23 +0100",
       "has_white_grape": "2026-10-18 21:55:52 +0200",
       "has_red_grape": "2026-10-18 22:19:21 +0200"
     },
@@ -65495,15 +65505,112 @@
     },
     "done": true
   },
-  "farmersdelight:main/plant_all_crops": {
+  "occultism:recipes/spirit_fire/spirit_fire/otherflower": {
     "criteria": {
-      "onion": "2026-10-18 23:09:19 +0200",
-      "potato": "2026-10-18 23:09:16 +0200",
-      "sweet_berries": "2026-10-18 22:54:02 +0200",
-      "wheat": "2026-10-18 23:04:05 +0200",
-      "pumpkin": "2026-10-18 23:15:29 +0200"
+      "has_tag_item": "2026-10-18 22:18:54 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2026-10-18 22:18:54 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cherry": {
+    "criteria": {
+      "has_planks": "2026-10-18 22:20:31 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2026-10-18 22:21:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2026-10-25 20:06:40 +0100",
+      "sweet_berries": "2026-10-18 23:02:27 +0200",
+      "baked_potato": "2026-10-24 23:26:28 +0200",
+      "melon_slice": "2026-10-25 19:58:37 +0100",
+      "cooked_salmon": "2026-10-18 22:22:33 +0200",
+      "carrot": "2026-10-24 22:15:58 +0200"
     },
     "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2026-10-18 22:22:33 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/oak_planks": {
+    "criteria": {
+      "has_planks": "2026-10-18 22:23:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2026-10-18 22:24:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:blaze": "2026-10-25 20:38:06 +0100",
+      "minecraft:skeleton": "2026-10-18 22:48:37 +0200",
+      "minecraft:zombified_piglin": "2026-10-25 20:13:30 +0100",
+      "minecraft:witch": "2026-10-25 21:22:11 +0100",
+      "minecraft:ghast": "2026-10-24 23:11:13 +0200",
+      "minecraft:hoglin": "2026-10-25 22:21:01 +0100",
+      "minecraft:piglin": "2026-10-24 23:07:09 +0200",
+      "minecraft:silverfish": "2026-10-25 21:50:27 +0100",
+      "minecraft:magma_cube": "2026-10-24 23:15:00 +0200",
+      "minecraft:spider": "2026-10-24 22:41:14 +0200",
+      "minecraft:zombie": "2026-10-18 22:24:20 +0200",
+      "minecraft:creeper": "2026-10-18 22:40:59 +0200",
+      "minecraft:drowned": "2026-10-25 22:10:43 +0100"
+    },
+    "done": false
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2026-10-18 22:24:51 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_or_careful": {
+    "criteria": {
+      "coded_trigger": "2026-10-18 22:29:44 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-10-18 22:29:44 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2026-10-18 22:31:20 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
+    "criteria": {
+      "has_tag_item": "2026-10-18 22:31:32 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_grave_type": {
+    "criteria": {
+      "coded_trigger": "2026-10-18 22:37:59 +0200"
+    },
+    "done": true
   },
   "mcwroofs:recipes/cherry_planks": {
     "criteria": {
@@ -65517,58 +65624,9 @@
     },
     "done": true
   },
-  "tombstone:adventure/strong_or_careful": {
-    "criteria": {
-      "coded_trigger": "2026-10-18 22:29:44 +0200"
-    },
-    "done": true
-  },
   "beautify:candelabras": {
     "criteria": {
       "requirement": "2026-10-18 22:43:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/balanced_diet": {
-    "criteria": {
-      "sweet_berries": "2026-10-18 23:02:27 +0200",
-      "cooked_salmon": "2026-10-18 22:22:33 +0200"
-    },
-    "done": false
-  },
-  "architects_palette:recipes/warping/warping/moonshale_from_stone_warping": {
-    "criteria": {
-      "has_stone": "2026-10-18 22:59:12 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/ashes_and_bones": {
-    "criteria": {
-      "coded_trigger": "2026-10-18 22:44:25 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/place_campfire": {
-    "criteria": {
-      "campfire": "2026-10-18 22:21:47 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/first_knowledge": {
-    "criteria": {
-      "coded_trigger": "2026-10-18 22:29:44 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/create_decorative_grave": {
-    "criteria": {
-      "has_decorative_grave": "2026-10-18 23:07:09 +0200"
-    },
-    "done": true
-  },
-  "supplementaries:recipe/rope_arrow_create": {
-    "criteria": {
-      "has_item_minecraft_arrow_1": "2026-10-18 22:48:38 +0200"
     },
     "done": true
   },
@@ -65578,9 +65636,62 @@
     },
     "done": true
   },
-  "tombstone:adventure/create_grave_marble": {
+  "architects_palette:recipes/warping/warping/esoterrack_from_andesite_warping": {
     "criteria": {
-      "has_grave_marble": "2026-10-18 23:07:04 +0200"
+      "has_andesite": "2026-10-18 22:43:03 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/andesite": {
+    "criteria": {
+      "has_planks": "2026-10-18 22:43:03 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/otherstone": {
+    "criteria": {
+      "has_andesite": "2026-10-18 22:43:03 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2026-10-18 22:44:25 +0200"
+    },
+    "done": true
+  },
+  "artifacts:amateur_archaeologist": {
+    "criteria": {
+      "find_artifact": "2026-10-18 22:45:25 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/rope_arrow_create": {
+    "criteria": {
+      "has_item_minecraft_arrow_1": "2026-10-18 22:48:38 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "onion": "2026-10-18 23:09:19 +0200",
+      "potato": "2026-10-18 23:09:16 +0200",
+      "sweet_berries": "2026-10-18 22:54:02 +0200",
+      "wheat": "2026-10-18 23:04:05 +0200",
+      "pumpkin": "2026-10-18 23:15:29 +0200",
+      "carrot": "2026-10-24 23:23:05 +0200"
+    },
+    "done": false
+  },
+  "occultism:recipes/crushing/crushing/iron_dust_from_raw": {
+    "criteria": {
+      "has_raw_iron": "2026-10-18 22:57:10 +0200"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/warping/warping/moonshale_from_stone_warping": {
+    "criteria": {
+      "has_stone": "2026-10-18 22:59:12 +0200"
     },
     "done": true
   },
@@ -65596,12 +65707,6 @@
     },
     "done": true
   },
-  "architects_palette:recipes/warping/warping/esoterrack_from_andesite_warping": {
-    "criteria": {
-      "has_andesite": "2026-10-18 22:43:03 +0200"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/gutters": {
     "criteria": {
       "has_planks": "2026-10-18 22:59:16 +0200"
@@ -65611,18 +65716,6 @@
   "beautify:iron_blinds": {
     "criteria": {
       "requirement": "2026-10-18 22:59:16 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
-    "criteria": {
-      "has_tag_item": "2026-10-18 22:31:32 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/otherflower": {
-    "criteria": {
-      "has_tag_item": "2026-10-18 22:18:54 +0200"
     },
     "done": true
   },
@@ -65638,83 +65731,9 @@
     },
     "done": true
   },
-  "artifacts:amateur_archaeologist": {
+  "occultism:recipes/crushing/crushing/iron_dust_from_ingot": {
     "criteria": {
-      "find_artifact": "2026-10-18 22:45:25 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2026-10-18 22:24:20 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/find_grave_dust": {
-    "criteria": {
-      "from_undead": "2026-10-18 22:24:51 +0200"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "onion": "2026-10-18 22:18:54 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/andesite": {
-    "criteria": {
-      "has_planks": "2026-10-18 22:43:03 +0200"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2026-10-18 22:48:37 +0200",
-      "minecraft:zombie": "2026-10-18 22:24:20 +0200",
-      "minecraft:creeper": "2026-10-18 22:40:59 +0200"
-    },
-    "done": false
-  },
-  "tombstone:adventure/cancel_ghostly_shape": {
-    "criteria": {
-      "coded_trigger": "2026-10-18 22:31:20 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/oak_planks": {
-    "criteria": {
-      "has_planks": "2026-10-18 22:23:20 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/iron_dust_from_raw": {
-    "criteria": {
-      "has_raw_iron": "2026-10-18 22:57:10 +0200"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/otherstone": {
-    "criteria": {
-      "has_andesite": "2026-10-18 22:43:03 +0200"
-    },
-    "done": true
-  },
-  "mcwroofs:recipes/cherry": {
-    "criteria": {
-      "has_planks": "2026-10-18 22:20:31 +0200"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2026-10-18 22:22:33 +0200"
-    },
-    "done": true
-  },
-  "tombstone:adventure/choose_grave_type": {
-    "criteria": {
-      "coded_trigger": "2026-10-18 22:37:59 +0200"
+      "has_iron_ingot": "2026-10-18 22:59:16 +0200"
     },
     "done": true
   },
@@ -65724,9 +65743,437 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/iron_dust_from_ingot": {
+  "tombstone:adventure/create_grave_marble": {
     "criteria": {
-      "has_iron_ingot": "2026-10-18 22:59:16 +0200"
+      "has_grave_marble": "2026-10-18 23:07:04 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_decorative_grave": {
+    "criteria": {
+      "has_decorative_grave": "2026-10-18 23:07:09 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/root": {
+    "criteria": {
+      "halloween": "2026-10-24 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "tombstone:event/halloween": {
+    "criteria": {
+      "coded_trigger": "2026-10-24 22:04:08 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/datura": {
+    "criteria": {
+      "has_datura": "2026-10-24 22:07:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2026-10-24 22:22:12 +0200"
+    },
+    "done": true
+  },
+  "create:stock_ticker": {
+    "criteria": {
+      "0": "2026-10-24 22:35:43 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/awning": {
+    "criteria": {
+      "has_planks": "2026-10-24 22:36:35 +0200"
+    },
+    "done": true
+  },
+  "beautify:frames": {
+    "criteria": {
+      "requirement": "2026-10-24 22:36:35 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_ingot": {
+    "criteria": {
+      "has_gold_ingot": "2026-10-24 22:37:10 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/exorcism": {
+    "criteria": {
+      "coded_trigger": "2026-10-24 22:37:31 +0200"
+    },
+    "done": true
+  },
+  "beautify:rope": {
+    "criteria": {
+      "requirement": "2026-10-24 22:41:30 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_gravel": {
+    "criteria": {
+      "has_item_minecraft_gravel_1": "2026-10-24 22:41:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2026-10-25 22:16:59 +0100",
+      "minecraft:nether_wastes": "2026-10-24 22:55:10 +0200",
+      "minecraft:basalt_deltas": "2026-10-24 22:55:43 +0200"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-10-24 22:55:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-10-24 22:55:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2026-10-24 22:55:47 +0200"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2026-10-24 22:56:46 +0200"
+    },
+    "done": true
+  },
+  "vinery:main/wild_harvest": {
+    "criteria": {
+      "any_seed": "2026-10-24 22:59:01 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/blackstone_dust": {
+    "criteria": {
+      "has_blackstone": "2026-10-24 23:18:26 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/coal_dust_from_item": {
+    "criteria": {
+      "has_coal": "2026-10-24 23:19:53 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/sus_sand": {
+    "criteria": {
+      "has_item_minecraft_sand_1": "2026-10-24 23:26:04 +0200"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/concrete": {
+    "criteria": {
+      "has_planks": "2026-10-24 23:26:04 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_rich_soil": {
+    "criteria": {
+      "get_rich_soil": "2026-10-25 21:27:40 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_gold": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2026-10-25 22:21:03 +0100"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo_planks": {
+    "criteria": {
+      "has_planks": "2026-10-25 21:13:31 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_silver": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/blaze_powder_from_rod": {
+    "criteria": {
+      "has_blaze_rod": "2026-10-25 20:39:39 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2026-10-25 21:03:31 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2026-10-25 20:03:41 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2026-10-25 20:13:44 +0100"
+    },
+    "done": true
+  },
+  "architects_palette:recipes/warping/warping/warpstone_from_clay_warping": {
+    "criteria": {
+      "has_clay": "2026-10-25 20:22:32 +0100"
+    },
+    "done": true
+  },
+  "beautify:lamps": {
+    "criteria": {
+      "requirement": "2026-10-25 20:28:17 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_prismarine": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/terracotta": {
+    "criteria": {
+      "has_planks": "2026-10-25 20:22:59 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_amethyst": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2026-10-25 22:15:48 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_lazuli": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2026-10-25 20:36:07 +0100"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/mechanical_grindstone": {
+    "criteria": {
+      "andesite": "2026-10-25 20:56:24 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_diamond": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo_mosaic": {
+    "criteria": {
+      "has_planks": "2026-10-25 21:13:31 +0100"
+    },
+    "done": true
+  },
+  "vinery:main/overgrown_lattices": {
+    "criteria": {
+      "used_seed_on_lattice": "2026-10-25 20:12:30 +0100"
+    },
+    "done": true
+  },
+  "reliquary:recipes/uncrafting/spawn_egg": {
+    "criteria": {
+      "has_mob_charm_fragment": "2026-10-25 21:52:30 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_iron": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/use_cutting_board": {
+    "criteria": {
+      "cutting_board": "2026-10-25 20:57:31 +0100"
+    },
+    "done": true
+  },
+  "create:contraption_actors": {
+    "criteria": {
+      "0": "2026-10-25 21:12:54 +0100"
+    },
+    "done": true
+  },
+  "aeronautics:in_thrust_we_trust": {
+    "criteria": {
+      "0": "2026-10-25 21:02:11 +0100"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/thatch": {
+    "criteria": {
+      "has_planks": "2026-10-25 21:10:44 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2026-10-25 21:37:15 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_emerald": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-10-25 20:39:39 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_iesnium": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "vinery:recipes/basket": {
+    "criteria": {
+      "has_wheat": "2026-10-25 21:10:44 +0100"
+    },
+    "done": true
+  },
+  "create:andesite_alloy": {
+    "criteria": {
+      "0": "2026-10-25 20:56:24 +0100"
+    },
+    "done": true
+  },
+  "vinery:recipes/flower_pot": {
+    "criteria": {
+      "has_brick": "2026-10-25 20:22:59 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/choose_knowledge": {
+    "criteria": {
+      "coded_trigger": "2026-10-25 20:14:30 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_spirit": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ambush": {
+    "criteria": {
+      "coded_trigger": "2026-10-25 21:22:11 +0100"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2026-10-25 20:28:17 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_organic_compost": {
+    "criteria": {
+      "place_organic_compost": "2026-10-25 21:01:47 +0100"
+    },
+    "done": true
+  },
+  "create:super_glue": {
+    "criteria": {
+      "0": "2026-10-25 21:12:35 +0100"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2026-10-25 20:36:07 +0100"
+    },
+    "done": false
+  },
+  "mcwroofs:recipes/red_sandstone": {
+    "criteria": {
+      "has_planks": "2026-10-25 20:27:42 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/emerald_dust_from_gem": {
+    "criteria": {
+      "has_emerald_gem": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bamboo": {
+    "criteria": {
+      "has_planks": "2026-10-25 20:59:21 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/gambler_quartz": {
+    "criteria": {
+      "has_gems": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-10-25 20:49:12 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lapis_dust_from_gem": {
+    "criteria": {
+      "has_lapis_gem": "2026-10-25 21:22:58 +0100"
+    },
+    "done": true
+  },
+  "farmersdelight:main/harvest_straw": {
+    "criteria": {
+      "harvest_straw": "2026-10-25 20:59:28 +0100"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_ingot": {
+    "criteria": {
+      "has_copper_ingot": "2026-10-25 20:28:17 +0100"
     },
     "done": true
   },
